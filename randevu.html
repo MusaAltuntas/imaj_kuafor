@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randevu Al - İmaj Kuaför</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Randevu Al - İmaj Kuaför</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Adınız Soyadınız</label>
+                <input type="text" class="form-control" id="name" placeholder="Adınız Soyadınız" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefon Numaranız</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Telefon Numaranız" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-posta Adresiniz</label>
+                <input type="email" class="form-control" id="email" placeholder="E-posta Adresiniz" required>
+            </div>
+            <div class="form-group">
+                <label for="service">Hizmet Seçiniz</label>
+                <select class="form-control" id="service" required>
+                    <option>Saç Kesimi</option>
+                    <option>Saç Boyama</option>
+                    <option>Saç Bakımı</option>
+                    <option>Perma</option>
+                    <option>Manikür ve Pedikür</option>
+                    <option>Cilt Bakımı</option>
+                    <option>Epilasyon Hizmetleri</option>
+                    <option>Kaş Tasarımı ve Şekillendirme</option>
+                    <option>Saç Stil Danışmanlığı</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="date">Randevu Tarihi</label>
+                <input type="date" class="form-control" id="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Randevu Saati</label>
+                <input type="time" class="form-control" id="time" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Randevu Al</button>
+        </form>
+    </div>
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+          <p>&copy; Musa ALTUNTAŞ</p>
+        </div>
+      </footer>
+      
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+* body{
+    overflow-x: hidden;
+}
+.navbar-toggler{
+    border-color:rgb(195, 228, 247);
+    color: #636669;
+}
+.navbar-toggler-icon{
+    padding-top: 3px;
+    color: rgb(195, 228, 247);
+}
+header{
+    padding-top: 5rem;
+    color: white;
+}
+.card-img-top{
+    width: 600px;
+    height: 250px;
+}
